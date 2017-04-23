@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row">
+        <div class="toptext col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2>TOO SLOW!</h2>
+        </div>
+    </div>
+
+    <div >
+        <img class="img-responsive center-block" src="http://i0.kym-cdn.com/entries/icons/original/000/003/878/1237917779613a.jpg?1284764479"/>
+    </div>
+    <br clear="both">
+    <div id="buttons" class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <a href="{% url 'index' %}" class="btn btn-primary btn-lg btn-block">Try Again</a>
+        </div>
+    </div>
+
+{% endblock content %}

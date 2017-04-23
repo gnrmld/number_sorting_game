@@ -1,0 +1,28 @@
+.toptext {
+    text-align:center;
+}
+
+.invalid {
+    text-align:center;
+    opacity:0;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+label {
+    height:11vh;
+    font-size:6.5vh !important;
+    margin-bottom:4vh !important;
+}
+
+#timer_wrapper{
+    display:none;
+    text-align:center;
+}
+
+.topscore{
+    width:30vw;
+    max-width:130px;
+}
